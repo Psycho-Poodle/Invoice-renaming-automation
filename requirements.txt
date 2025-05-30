@@ -1,0 +1,26 @@
+# Core PDF Processing and OCR
+PyPDF2
+Pillow
+pdf2image
+pytesseract
+ag2[openai]
+
+
+# HTTP Requests and API
+requests
+
+# Web Framework (for future API)
+flask
+
+# MCP Server Framework
+mcp
+
+# Utility Libraries
+python-dotenv
+
+# Development and Testing
+pytest
+
+# Note: System packages required:
+# sudo apt-get install tesseract-ocr tesseract-ocr-eng tesseract-ocr-deu poppler-utils
+# Ollama should be installed separately: curl -fsSL https://ollama.ai/install.sh | sh 

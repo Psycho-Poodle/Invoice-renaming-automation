@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "autogen-mcp-invoice-naming"
+version = "0.1.0"
+description = "AutoGen MCP Invoice Naming System"
+authors = ["bilalkhan31c7@gmail.com"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+flask = "^3.0.0"
+python-dotenv = "^1.0.0"
+# Add your agent dependencies here, e.g.:
+pandas = "^2.2.0"
+pyautogen = "^0.2.0"
+PyPDF2 = "^3.0.0"
+google-generativeai = "^0.8.0"
+Pillow = "^10.0.0"
+pdf2image = "^1.17.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+ruff = "^0.4.0"
+mypy = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api" 
